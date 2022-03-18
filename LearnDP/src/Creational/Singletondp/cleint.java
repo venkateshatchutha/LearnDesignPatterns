@@ -1,6 +1,8 @@
 package Creational.Singletondp;
 
 
+import Creational.builderdp.builder;
+
 public class cleint {
     public static void main(String[] args) {
         //signleton signleton = Creational.Singletondp.signleton.getInstance();
@@ -12,6 +14,11 @@ public class cleint {
 //        Thread th=new Thread();
 //        Thread th2=new Thread();
 //        th.
+        System.out.println(singletonbillpug.getInstance());
+        System.out.println(singletonbillpug.getInstance());
+        Creational.builderdp.builder b=new builder();
+        String a= b.name2;
+
 
     }
 }
